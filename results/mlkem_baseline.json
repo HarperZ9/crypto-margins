@@ -1,0 +1,430 @@
+{
+  "started_utc": "2026-10-09T01:03:45Z",
+  "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "sage_version": "SageMath version 10.9, Release Date: 2026-05-04",
+  "params": {
+    "ML-KEM-512": {
+      "lwe": "LWEParameters(n=512, q=3329, Xs=D(\u03c3=1.22), Xe=D(\u03c3=1.22), m=512, tag='ML-KEM-512')",
+      "claimed_nist_level": 1,
+      "models": {
+        "MATZOV": {
+          "seconds": 8.6,
+          "attacks": {
+            "arora-gb": {
+              "log2_rop": null,
+              "beta": null,
+              "raw": "         rop:  \u22482^inf"
+            },
+            "bkw": {
+              "log2_rop": 178.76,
+              "beta": null,
+              "raw": "         rop: \u22482^178.8\n           m: \u22482^166.8\n         mem: \u22482^167.8\n           b:       14\n          t1:        0\n          t2:       16\n           \u2113:       13\n        #cod:      448\n        #top:        0\n       #test:       64\n         tag: coded-bkw"
+            },
+            "usvp": {
+              "log2_rop": 143.77,
+              "beta": 406,
+              "raw": "         rop: \u22482^143.8\n         red: \u22482^143.8\n           \u03b4: 1.003941\n           \u03b2:      406\n           d:      998\n         tag:     usvp"
+            },
+            "bdd": {
+              "log2_rop": 140.2,
+              "beta": 389,
+              "raw": "         rop: \u22482^140.2\n         red: \u22482^139.1\n         svp: \u22482^139.3\n           \u03b2:      389\n           \u03b7:      422\n           d:     1005\n         tag:      bdd"
+            },
+            "bdd_hybrid": {
+              "log2_rop": 140.21,
+              "beta": 389,
+              "raw": "         rop: \u22482^140.2\n         red: \u22482^139.1\n         svp: \u22482^139.3\n           \u03b2:      389\n           \u03b7:      422\n           \u03b6:        0\n         |S|:        1\n           d:     1013\n        prob:      1.0\n           \u21bb:        1\n         tag:   hybrid"
+            },
+            "bdd_mitm_hybrid": {
+              "log2_rop": 262.07,
+              "beta": 407,
+              "raw": "         rop: \u22482^262.1\n         red: \u22482^254.0\n         svp: \u22482^262.1\n           \u03b2:      407\n           \u03b7:        2\n           \u03b6:      111\n         |S|: \u22482^264.5\n           d:      911\n        prob: \u22482^-108.0\n           \u21bb: \u22482^110.2\n         tag:   hybrid"
+            },
+            "dual": {
+              "log2_rop": 149.88,
+              "beta": 424,
+              "raw": "         rop: \u22482^149.9\n         mem: \u22482^97.1\n           m:      512\n           \u03b2:      424\n           d:     1024\n           \u21bb:        1\n         tag:     dual"
+            },
+            "dual_hybrid": {
+              "log2_rop": 139.66,
+              "beta": 387,
+              "raw": "         rop: \u22482^139.7\n         red: \u22482^139.5\n       guess: \u22482^135.9\n           \u03b2:      387\n           p:        5\n           \u03b6:        0\n           t:       50\n          \u03b2':      391\n           N: \u22482^81.1\n           m:      512"
+            }
+          }
+        },
+        "ADPS16_classical": {
+          "seconds": 6.6,
+          "attacks": {
+            "arora-gb": {
+              "log2_rop": null,
+              "beta": null,
+              "raw": "         rop:  \u22482^inf"
+            },
+            "bkw": {
+              "log2_rop": 178.76,
+              "beta": null,
+              "raw": "         rop: \u22482^178.8\n           m: \u22482^166.8\n         mem: \u22482^167.8\n           b:       14\n          t1:        0\n          t2:       16\n           \u2113:       13\n        #cod:      448\n        #top:        0\n       #test:       64\n         tag: coded-bkw"
+            },
+            "usvp": {
+              "log2_rop": 118.55,
+              "beta": 406,
+              "raw": "         rop: \u22482^118.6\n         red: \u22482^118.6\n           \u03b4: 1.003941\n           \u03b2:      406\n           d:      998\n         tag:     usvp"
+            },
+            "bdd": {
+              "log2_rop": 119.41,
+              "beta": 406,
+              "raw": "         rop: \u22482^119.4\n         red: \u22482^118.6\n         svp: \u22482^118.3\n           \u03b2:      406\n           \u03b7:      404\n           d:     1021\n         tag:      bdd"
+            },
+            "bdd_hybrid": {
+              "log2_rop": 119.41,
+              "beta": 406,
+              "raw": "         rop: \u22482^119.4\n         red: \u22482^118.6\n         svp: \u22482^118.3\n           \u03b2:      406\n           \u03b7:      404\n           \u03b6:        0\n         |S|:        1\n           d:     1024\n        prob:      1.0\n           \u21bb:        1\n         tag:   hybrid"
+            },
+            "bdd_mitm_hybrid": {
+              "log2_rop": 262.07,
+              "beta": 407,
+              "raw": "         rop: \u22482^262.1\n         red: \u22482^229.0\n         svp: \u22482^262.1\n           \u03b2:      407\n           \u03b7:        2\n           \u03b6:      111\n         |S|: \u22482^264.5\n           d:      911\n        prob: \u22482^-108.0\n           \u21bb: \u22482^110.2\n         tag:   hybrid"
+            },
+            "dual": {
+              "log2_rop": 123.81,
+              "beta": 424,
+              "raw": "         rop: \u22482^123.8\n         mem: \u22482^96.7\n           m:      512\n           \u03b2:      424\n           d:     1024\n           \u21bb:        1\n         tag:     dual"
+            },
+            "dual_hybrid": {
+              "log2_rop": 115.51,
+              "beta": 395,
+              "raw": "         rop: \u22482^115.5\n         red: \u22482^115.3\n       guess: \u22482^112.3\n           \u03b2:      395\n           p:        5\n           \u03b6:        0\n           t:       40\n          \u03b2':      395\n           N: \u22482^81.4\n           m:      512"
+            }
+          }
+        },
+        "ADPS16_quantum": {
+          "seconds": 6.7,
+          "attacks": {
+            "arora-gb": {
+              "log2_rop": null,
+              "beta": null,
+              "raw": "         rop:  \u22482^inf"
+            },
+            "bkw": {
+              "log2_rop": 178.76,
+              "beta": null,
+              "raw": "         rop: \u22482^178.8\n           m: \u22482^166.8\n         mem: \u22482^167.8\n           b:       14\n          t1:        0\n          t2:       16\n           \u2113:       13\n        #cod:      448\n        #top:        0\n       #test:       64\n         tag: coded-bkw"
+            },
+            "usvp": {
+              "log2_rop": 107.59,
+              "beta": 406,
+              "raw": "         rop: \u22482^107.6\n         red: \u22482^107.6\n           \u03b4: 1.003941\n           \u03b2:      406\n           d:      998\n         tag:     usvp"
+            },
+            "bdd": {
+              "log2_rop": 108.46,
+              "beta": 406,
+              "raw": "         rop: \u22482^108.5\n         red: \u22482^107.6\n         svp: \u22482^107.3\n           \u03b2:      406\n           \u03b7:      404\n           d:     1021\n         tag:      bdd"
+            },
+            "bdd_hybrid": {
+              "log2_rop": 108.46,
+              "beta": 406,
+              "raw": "         rop: \u22482^108.5\n         red: \u22482^107.6\n         svp: \u22482^107.3\n           \u03b2:      406\n           \u03b7:      404\n           \u03b6:        0\n         |S|:        1\n           d:     1024\n        prob:      1.0\n           \u21bb:        1\n         tag:   hybrid"
+            },
+            "bdd_mitm_hybrid": {
+              "log2_rop": 251.19,
+              "beta": 407,
+              "raw": "         rop: \u22482^251.2\n         red: \u22482^251.2\n         svp: \u22482^163.3\n           \u03b2:      407\n           \u03b7:        2\n           \u03b6:        0\n         |S|:        1\n           d:     1024\n        prob: \u22482^-141.1\n           \u21bb: \u22482^143.3\n         tag:   hybrid"
+            },
+            "dual": {
+              "log2_rop": 112.36,
+              "beta": 424,
+              "raw": "         rop: \u22482^112.4\n         mem: \u22482^96.7\n           m:      512\n           \u03b2:      424\n           d:     1024\n           \u21bb:        1\n         tag:     dual"
+            },
+            "dual_hybrid": {
+              "log2_rop": 106.28,
+              "beta": 401,
+              "raw": "         rop: \u22482^106.3\n         red: \u22482^106.3\n       guess: \u22482^99.2\n           \u03b2:      401\n           p:        4\n           \u03b6:        0\n           t:       40\n          \u03b2':      401\n           N: \u22482^82.6\n           m:      512"
+            }
+          }
+        }
+      }
+    },
+    "ML-KEM-768": {
+      "lwe": "LWEParameters(n=768, q=3329, Xs=D(\u03c3=1.00), Xe=D(\u03c3=1.00), m=768, tag='ML-KEM-768')",
+      "claimed_nist_level": 3,
+      "models": {
+        "MATZOV": {
+          "seconds": 12.6,
+          "attacks": {
+            "arora-gb": {
+              "log2_rop": null,
+              "beta": null,
+              "raw": "         rop:  \u22482^inf"
+            },
+            "bkw": {
+              "log2_rop": 238.25,
+              "beta": null,
+              "raw": "         rop: \u22482^238.3\n           m: \u22482^225.5\n         mem: \u22482^226.5\n           b:       19\n          t1:        1\n          t2:       17\n           \u2113:       18\n        #cod:      653\n        #top:        1\n       #test:       95\n         tag: coded-bkw"
+            },
+            "usvp": {
+              "log2_rop": 204.91,
+              "beta": 624,
+              "raw": "         rop: \u22482^204.9\n         red: \u22482^204.9\n           \u03b4: 1.002902\n           \u03b2:      624\n           d:     1427\n         tag:     usvp"
+            },
+            "bdd": {
+              "log2_rop": 200.96,
+              "beta": 606,
+              "raw": "         rop: \u22482^201.0\n         red: \u22482^199.9\n         svp: \u22482^200.0\n           \u03b2:      606\n           \u03b7:      640\n           d:     1420\n         tag:      bdd"
+            },
+            "bdd_hybrid": {
+              "log2_rop": 200.99,
+              "beta": 606,
+              "raw": "         rop: \u22482^201.0\n         red: \u22482^200.0\n         svp: \u22482^200.0\n           \u03b2:      606\n           \u03b7:      640\n           \u03b6:        0\n         |S|:        1\n           d:     1451\n        prob:      1.0\n           \u21bb:        1\n         tag:   hybrid"
+            },
+            "bdd_mitm_hybrid": {
+              "log2_rop": 358.25,
+              "beta": 625,
+              "raw": "         rop: \u22482^358.2\n         red: \u22482^332.9\n         svp: \u22482^358.2\n           \u03b2:      625\n           \u03b7:        2\n           \u03b6:      209\n         |S|: \u22482^419.2\n           d:     1252\n        prob: \u22482^-125.9\n           \u21bb: \u22482^128.1\n         tag:   hybrid"
+            },
+            "dual": {
+              "log2_rop": 214.29,
+              "beta": 654,
+              "raw": "         rop: \u22482^214.3\n         mem: \u22482^142.8\n           m:      724\n           \u03b2:      654\n           d:     1492\n           \u21bb:        1\n         tag:     dual"
+            },
+            "dual_hybrid": {
+              "log2_rop": 196.37,
+              "beta": 589,
+              "raw": "         rop: \u22482^196.4\n         red: \u22482^196.4\n       guess: \u22482^185.8\n           \u03b2:      589\n           p:        4\n           \u03b6:       20\n           t:       60\n          \u03b2':      583\n           N: \u22482^119.8\n           m:      768"
+            }
+          }
+        },
+        "ADPS16_classical": {
+          "seconds": 14.2,
+          "attacks": {
+            "arora-gb": {
+              "log2_rop": null,
+              "beta": null,
+              "raw": "         rop:  \u22482^inf"
+            },
+            "bkw": {
+              "log2_rop": 238.25,
+              "beta": null,
+              "raw": "         rop: \u22482^238.3\n           m: \u22482^225.5\n         mem: \u22482^226.5\n           b:       19\n          t1:        1\n          t2:       17\n           \u2113:       18\n        #cod:      653\n        #top:        1\n       #test:       95\n         tag: coded-bkw"
+            },
+            "usvp": {
+              "log2_rop": 182.21,
+              "beta": 624,
+              "raw": "         rop: \u22482^182.2\n         red: \u22482^182.2\n           \u03b4: 1.002902\n           \u03b2:      624\n           d:     1427\n         tag:     usvp"
+            },
+            "bdd": {
+              "log2_rop": 183.07,
+              "beta": 624,
+              "raw": "         rop: \u22482^183.1\n         red: \u22482^182.2\n         svp: \u22482^181.9\n           \u03b2:      624\n           \u03b7:      622\n           d:     1448\n         tag:      bdd"
+            },
+            "bdd_hybrid": {
+              "log2_rop": 183.07,
+              "beta": 624,
+              "raw": "         rop: \u22482^183.1\n         red: \u22482^182.2\n         svp: \u22482^181.9\n           \u03b2:      624\n           \u03b7:      622\n           \u03b6:        0\n         |S|:        1\n           d:     1467\n        prob:      1.0\n           \u21bb:        1\n         tag:   hybrid"
+            },
+            "bdd_mitm_hybrid": {
+              "log2_rop": 358.25,
+              "beta": 625,
+              "raw": "         rop: \u22482^358.2\n         red: \u22482^310.6\n         svp: \u22482^358.2\n           \u03b2:      625\n           \u03b7:        2\n           \u03b6:      209\n         |S|: \u22482^419.2\n           d:     1252\n        prob: \u22482^-125.9\n           \u21bb: \u22482^128.1\n         tag:   hybrid"
+            },
+            "dual": {
+              "log2_rop": 189.22,
+              "beta": 648,
+              "raw": "         rop: \u22482^189.2\n         mem: \u22482^143.8\n           m:      719\n           \u03b2:      648\n           d:     1487\n           \u21bb:        1\n         tag:     dual"
+            },
+            "dual_hybrid": {
+              "log2_rop": 174.32,
+              "beta": 597,
+              "raw": "         rop: \u22482^174.3\n         red: \u22482^174.3\n       guess: \u22482^162.5\n           \u03b2:      597\n           p:        4\n           \u03b6:       10\n           t:       60\n          \u03b2':      597\n           N: \u22482^122.7\n           m:      768"
+            }
+          }
+        },
+        "ADPS16_quantum": {
+          "seconds": 13.2,
+          "attacks": {
+            "arora-gb": {
+              "log2_rop": null,
+              "beta": null,
+              "raw": "         rop:  \u22482^inf"
+            },
+            "bkw": {
+              "log2_rop": 238.25,
+              "beta": null,
+              "raw": "         rop: \u22482^238.3\n           m: \u22482^225.5\n         mem: \u22482^226.5\n           b:       19\n          t1:        1\n          t2:       17\n           \u2113:       18\n        #cod:      653\n        #top:        1\n       #test:       95\n         tag: coded-bkw"
+            },
+            "usvp": {
+              "log2_rop": 165.36,
+              "beta": 624,
+              "raw": "         rop: \u22482^165.4\n         red: \u22482^165.4\n           \u03b4: 1.002902\n           \u03b2:      624\n           d:     1427\n         tag:     usvp"
+            },
+            "bdd": {
+              "log2_rop": 166.23,
+              "beta": 624,
+              "raw": "         rop: \u22482^166.2\n         red: \u22482^165.4\n         svp: \u22482^165.1\n           \u03b2:      624\n           \u03b7:      622\n           d:     1448\n         tag:      bdd"
+            },
+            "bdd_hybrid": {
+              "log2_rop": 166.23,
+              "beta": 624,
+              "raw": "         rop: \u22482^166.2\n         red: \u22482^165.4\n         svp: \u22482^165.1\n           \u03b2:      624\n           \u03b7:      622\n           \u03b6:        0\n         |S|:        1\n           d:     1467\n        prob:      1.0\n           \u21bb:        1\n         tag:   hybrid"
+            },
+            "bdd_mitm_hybrid": {
+              "log2_rop": 358.25,
+              "beta": 625,
+              "raw": "         rop: \u22482^358.2\n         red: \u22482^293.7\n         svp: \u22482^358.2\n           \u03b2:      625\n           \u03b7:        2\n           \u03b6:      209\n         |S|: \u22482^419.2\n           d:     1252\n        prob: \u22482^-125.9\n           \u21bb: \u22482^128.1\n         tag:   hybrid"
+            },
+            "dual": {
+              "log2_rop": 171.72,
+              "beta": 648,
+              "raw": "         rop: \u22482^171.7\n         mem: \u22482^143.8\n           m:      719\n           \u03b2:      648\n           d:     1487\n           \u21bb:        1\n         tag:     dual"
+            },
+            "dual_hybrid": {
+              "log2_rop": 160.03,
+              "beta": 600,
+              "raw": "         rop: \u22482^160.0\n         red: \u22482^159.0\n       guess: \u22482^159.1\n           \u03b2:      600\n           p:        5\n           \u03b6:       10\n           t:       50\n          \u03b2':      600\n           N: \u22482^123.1\n           m:      768"
+            }
+          }
+        }
+      }
+    },
+    "ML-KEM-1024": {
+      "lwe": "LWEParameters(n=1024, q=3329, Xs=D(\u03c3=1.00), Xe=D(\u03c3=1.00), m=1024, tag='ML-KEM-1024')",
+      "claimed_nist_level": 5,
+      "models": {
+        "MATZOV": {
+          "seconds": 19.8,
+          "attacks": {
+            "arora-gb": {
+              "log2_rop": null,
+              "beta": null,
+              "raw": "         rop:  \u22482^inf"
+            },
+            "bkw": {
+              "log2_rop": 315.04,
+              "beta": null,
+              "raw": "         rop: \u22482^315.0\n           m: \u22482^301.0\n         mem: \u22482^296.7\n           b:       25\n          t1:        0\n          t2:       18\n           \u2113:       24\n        #cod:      897\n        #top:        0\n       #test:      129\n         tag: coded-bkw"
+            },
+            "usvp": {
+              "log2_rop": 275.1,
+              "beta": 874,
+              "raw": "         rop: \u22482^275.1\n         red: \u22482^275.1\n           \u03b4: 1.002262\n           \u03b2:      874\n           d:     1867\n         tag:     usvp"
+            },
+            "bdd": {
+              "log2_rop": 270.72,
+              "beta": 855,
+              "raw": "         rop: \u22482^270.7\n         red: \u22482^269.8\n         svp: \u22482^269.6\n           \u03b2:      855\n           \u03b7:      889\n           d:     1867\n         tag:      bdd"
+            },
+            "bdd_hybrid": {
+              "log2_rop": 270.75,
+              "beta": 855,
+              "raw": "         rop: \u22482^270.7\n         red: \u22482^269.9\n         svp: \u22482^269.6\n           \u03b2:      855\n           \u03b7:      889\n           \u03b6:        0\n         |S|:        1\n           d:     1902\n        prob:      1.0\n           \u21bb:        1\n         tag:   hybrid"
+            },
+            "bdd_mitm_hybrid": {
+              "log2_rop": 495.91,
+              "beta": 875,
+              "raw": "         rop: \u22482^495.9\n         red: \u22482^439.2\n         svp: \u22482^495.9\n           \u03b2:      875\n           \u03b7:        2\n           \u03b6:      307\n         |S|: \u22482^620.7\n           d:     1606\n        prob: \u22482^-162.1\n           \u21bb: \u22482^164.3\n         tag:   hybrid"
+            },
+            "dual": {
+              "log2_rop": 288.53,
+              "beta": 918,
+              "raw": "         rop: \u22482^288.5\n         mem: \u22482^195.3\n           m:      930\n           \u03b2:      918\n           d:     1954\n           \u21bb:        1\n         tag:     dual"
+            },
+            "dual_hybrid": {
+              "log2_rop": 262.34,
+              "beta": 823,
+              "raw": "         rop: \u22482^262.3\n         red: \u22482^261.9\n       guess: \u22482^260.3\n           \u03b2:      823\n           p:        4\n           \u03b6:        0\n           t:      120\n          \u03b2':      804\n           N: \u22482^165.9\n           m:     1024"
+            }
+          }
+        },
+        "ADPS16_classical": {
+          "seconds": 17.3,
+          "attacks": {
+            "arora-gb": {
+              "log2_rop": null,
+              "beta": null,
+              "raw": "         rop:  \u22482^inf"
+            },
+            "bkw": {
+              "log2_rop": 315.04,
+              "beta": null,
+              "raw": "         rop: \u22482^315.0\n           m: \u22482^301.0\n         mem: \u22482^296.7\n           b:       25\n          t1:        0\n          t2:       18\n           \u2113:       24\n        #cod:      897\n        #top:        0\n       #test:      129\n         tag: coded-bkw"
+            },
+            "usvp": {
+              "log2_rop": 255.21,
+              "beta": 874,
+              "raw": "         rop: \u22482^255.2\n         red: \u22482^255.2\n           \u03b4: 1.002262\n           \u03b2:      874\n           d:     1867\n         tag:     usvp"
+            },
+            "bdd": {
+              "log2_rop": 256.07,
+              "beta": 874,
+              "raw": "         rop: \u22482^256.1\n         red: \u22482^255.2\n         svp: \u22482^254.9\n           \u03b2:      874\n           \u03b7:      872\n           d:     1886\n         tag:      bdd"
+            },
+            "bdd_hybrid": {
+              "log2_rop": 256.07,
+              "beta": 874,
+              "raw": "         rop: \u22482^256.1\n         red: \u22482^255.2\n         svp: \u22482^254.9\n           \u03b2:      874\n           \u03b7:      872\n           \u03b6:        0\n         |S|:        1\n           d:     1918\n        prob:      1.0\n           \u21bb:        1\n         tag:   hybrid"
+            },
+            "bdd_mitm_hybrid": {
+              "log2_rop": 495.91,
+              "beta": 875,
+              "raw": "         rop: \u22482^495.9\n         red: \u22482^419.8\n         svp: \u22482^495.9\n           \u03b2:      875\n           \u03b7:        2\n           \u03b6:      307\n         |S|: \u22482^620.7\n           d:     1606\n        prob: \u22482^-162.1\n           \u21bb: \u22482^164.3\n         tag:   hybrid"
+            },
+            "dual": {
+              "log2_rop": 263.97,
+              "beta": 904,
+              "raw": "         rop: \u22482^264.0\n         mem: \u22482^197.4\n           m:      918\n           \u03b2:      904\n           d:     1942\n           \u21bb:        1\n         tag:     dual"
+            },
+            "dual_hybrid": {
+              "log2_rop": 241.76,
+              "beta": 826,
+              "raw": "         rop: \u22482^241.8\n         red: \u22482^241.2\n       guess: \u22482^240.1\n           \u03b2:      826\n           p:        4\n           \u03b6:        0\n           t:      110\n          \u03b2':      826\n           N: \u22482^171.4\n           m:     1024"
+            }
+          }
+        },
+        "ADPS16_quantum": {
+          "seconds": 17.1,
+          "attacks": {
+            "arora-gb": {
+              "log2_rop": null,
+              "beta": null,
+              "raw": "         rop:  \u22482^inf"
+            },
+            "bkw": {
+              "log2_rop": 315.04,
+              "beta": null,
+              "raw": "         rop: \u22482^315.0\n           m: \u22482^301.0\n         mem: \u22482^296.7\n           b:       25\n          t1:        0\n          t2:       18\n           \u2113:       24\n        #cod:      897\n        #top:        0\n       #test:      129\n         tag: coded-bkw"
+            },
+            "usvp": {
+              "log2_rop": 231.61,
+              "beta": 874,
+              "raw": "         rop: \u22482^231.6\n         red: \u22482^231.6\n           \u03b4: 1.002262\n           \u03b2:      874\n           d:     1867\n         tag:     usvp"
+            },
+            "bdd": {
+              "log2_rop": 232.48,
+              "beta": 874,
+              "raw": "         rop: \u22482^232.5\n         red: \u22482^231.6\n         svp: \u22482^231.3\n           \u03b2:      874\n           \u03b7:      872\n           d:     1886\n         tag:      bdd"
+            },
+            "bdd_hybrid": {
+              "log2_rop": 232.48,
+              "beta": 874,
+              "raw": "         rop: \u22482^232.5\n         red: \u22482^231.6\n         svp: \u22482^231.3\n           \u03b2:      874\n           \u03b7:      872\n           \u03b6:        0\n         |S|:        1\n           d:     1918\n        prob:      1.0\n           \u21bb:        1\n         tag:   hybrid"
+            },
+            "bdd_mitm_hybrid": {
+              "log2_rop": 495.91,
+              "beta": 875,
+              "raw": "         rop: \u22482^495.9\n         red: \u22482^396.1\n         svp: \u22482^495.9\n           \u03b2:      875\n           \u03b7:        2\n           \u03b6:      307\n         |S|: \u22482^620.7\n           d:     1606\n        prob: \u22482^-162.1\n           \u21bb: \u22482^164.3\n         tag:   hybrid"
+            },
+            "dual": {
+              "log2_rop": 239.56,
+              "beta": 904,
+              "raw": "         rop: \u22482^239.6\n         mem: \u22482^197.4\n           m:      918\n           \u03b2:      904\n           d:     1942\n           \u21bb:        1\n         tag:     dual"
+            },
+            "dual_hybrid": {
+              "log2_rop": 221.42,
+              "beta": 833,
+              "raw": "         rop: \u22482^221.4\n         red: \u22482^220.7\n       guess: \u22482^220.0\n           \u03b2:      833\n           p:        4\n           \u03b6:        0\n           t:      100\n          \u03b2':      833\n           N: \u22482^172.7\n           m:     1024"
+            }
+          }
+        }
+      }
+    }
+  }
+}

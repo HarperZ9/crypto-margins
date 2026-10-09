@@ -1,0 +1,34 @@
+{
+  "eta": 2,
+  "n": 60,
+  "m": 18,
+  "d": 79,
+  "q": 3329,
+  "predicted_beta": 40,
+  "trials": 4,
+  "max_beta": 45,
+  "solved": 4,
+  "median_beta": 28.5,
+  "runs": [
+    {
+      "seed": 60000,
+      "beta": 28,
+      "seconds": 1.4
+    },
+    {
+      "seed": 60001,
+      "beta": 29,
+      "seconds": 1.4
+    },
+    {
+      "seed": 60002,
+      "beta": 21,
+      "seconds": 1.0
+    },
+    {
+      "seed": 60003,
+      "beta": 35,
+      "seconds": 1.9
+    }
+  ]
+}

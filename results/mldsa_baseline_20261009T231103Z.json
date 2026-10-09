@@ -1,0 +1,307 @@
+{
+  "started_utc": "2026-10-09T23:08:43Z",
+  "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "sage_version": "SageMath version 10.9, Release Date: 2026-05-04",
+  "params": {
+    "ML-DSA-44": {
+      "lwe": "LWEParameters(n=1024, q=8380417, Xs=D(\u03c3=1.41), Xe=D(\u03c3=1.41), m=1024, tag='ML-DSA-44')",
+      "claimed_category": 2,
+      "key_recovery": {
+        "MATZOV": {
+          "arora-gb": {
+            "log2_rop": null,
+            "beta": null
+          },
+          "bkw": {
+            "log2_rop": 270.9,
+            "beta": null
+          },
+          "usvp": {
+            "log2_rop": 150.19,
+            "beta": 424
+          },
+          "bdd": {
+            "log2_rop": 148.04,
+            "beta": 415
+          },
+          "bdd_hybrid": {
+            "log2_rop": 148.05,
+            "beta": 415
+          },
+          "bdd_mitm_hybrid": {
+            "log2_rop": 264.32,
+            "beta": 425
+          },
+          "dual": {
+            "log2_rop": 154.06,
+            "beta": 434
+          },
+          "dual_hybrid": {
+            "log2_rop": 148.46,
+            "beta": 414
+          }
+        },
+        "ADPS16_classical": {
+          "arora-gb": {
+            "log2_rop": null,
+            "beta": null
+          },
+          "bkw": {
+            "log2_rop": 270.9,
+            "beta": null
+          },
+          "usvp": {
+            "log2_rop": 123.81,
+            "beta": 424
+          },
+          "bdd": {
+            "log2_rop": 124.55,
+            "beta": 424
+          },
+          "bdd_hybrid": {
+            "log2_rop": 124.55,
+            "beta": 424
+          },
+          "bdd_mitm_hybrid": {
+            "log2_rop": 260.87,
+            "beta": 425
+          },
+          "dual": {
+            "log2_rop": 126.73,
+            "beta": 434
+          },
+          "dual_hybrid": {
+            "log2_rop": 122.64,
+            "beta": 420
+          }
+        }
+      },
+      "forgery": {
+        "weak_unf_MATZOV": {
+          "lattice": {
+            "log2_rop": 152.16,
+            "beta": 427
+          }
+        },
+        "weak_unf_ADPS16_classical": {
+          "lattice": {
+            "log2_rop": 123.52,
+            "beta": 423
+          }
+        },
+        "strong_unf_MATZOV": {
+          "lattice": {
+            "log2_rop": 150.59,
+            "beta": 421
+          }
+        },
+        "strong_unf_ADPS16_classical": {
+          "lattice": {
+            "log2_rop": 121.76,
+            "beta": 417
+          }
+        }
+      }
+    },
+    "ML-DSA-65": {
+      "lwe": "LWEParameters(n=1280, q=8380417, Xs=D(\u03c3=2.58), Xe=D(\u03c3=2.58), m=1536, tag='ML-DSA-65')",
+      "claimed_category": 3,
+      "key_recovery": {
+        "MATZOV": {
+          "arora-gb": {
+            "log2_rop": null,
+            "beta": null
+          },
+          "bkw": {
+            "log2_rop": 386.03,
+            "beta": null
+          },
+          "usvp": {
+            "log2_rop": 206.21,
+            "beta": 624
+          },
+          "bdd": {
+            "log2_rop": 203.77,
+            "beta": 613
+          },
+          "bdd_hybrid": {
+            "log2_rop": 203.78,
+            "beta": 613
+          },
+          "bdd_mitm_hybrid": {
+            "log2_rop": 441.36,
+            "beta": 625
+          },
+          "dual": {
+            "log2_rop": 212.08,
+            "beta": 641
+          },
+          "dual_hybrid": {
+            "log2_rop": 209.57,
+            "beta": 632
+          }
+        },
+        "ADPS16_classical": {
+          "arora-gb": {
+            "log2_rop": null,
+            "beta": null
+          },
+          "bkw": {
+            "log2_rop": 386.03,
+            "beta": null
+          },
+          "usvp": {
+            "log2_rop": 182.21,
+            "beta": 624
+          },
+          "bdd": {
+            "log2_rop": 183.03,
+            "beta": 625
+          },
+          "bdd_hybrid": {
+            "log2_rop": 183.03,
+            "beta": 625
+          },
+          "bdd_mitm_hybrid": {
+            "log2_rop": 439.24,
+            "beta": 625
+          },
+          "dual": {
+            "log2_rop": 186.3,
+            "beta": 638
+          },
+          "dual_hybrid": {
+            "log2_rop": 184.9,
+            "beta": 633
+          }
+        }
+      },
+      "forgery": {
+        "weak_unf_MATZOV": {
+          "lattice": {
+            "log2_rop": 211.49,
+            "beta": 638
+          }
+        },
+        "weak_unf_ADPS16_classical": {
+          "lattice": {
+            "log2_rop": 186.3,
+            "beta": 638
+          }
+        },
+        "strong_unf_MATZOV": {
+          "lattice": {
+            "log2_rop": 202.02,
+            "beta": 604
+          }
+        },
+        "strong_unf_ADPS16_classical": {
+          "lattice": {
+            "log2_rop": 175.78,
+            "beta": 602
+          }
+        }
+      }
+    },
+    "ML-DSA-87": {
+      "lwe": "LWEParameters(n=1792, q=8380417, Xs=D(\u03c3=1.41), Xe=D(\u03c3=1.41), m=2048, tag='ML-DSA-87')",
+      "claimed_category": 5,
+      "key_recovery": {
+        "MATZOV": {
+          "arora-gb": {
+            "log2_rop": null,
+            "beta": null
+          },
+          "bkw": {
+            "log2_rop": 455.94,
+            "beta": null
+          },
+          "usvp": {
+            "log2_rop": 273.43,
+            "beta": 863
+          },
+          "bdd": {
+            "log2_rop": 270.85,
+            "beta": 852
+          },
+          "bdd_hybrid": {
+            "log2_rop": 270.86,
+            "beta": 852
+          },
+          "bdd_mitm_hybrid": {
+            "log2_rop": 515.3,
+            "beta": 863
+          },
+          "dual": {
+            "log2_rop": 281.17,
+            "beta": 887
+          },
+          "dual_hybrid": {
+            "log2_rop": 267.01,
+            "beta": 836
+          }
+        },
+        "ADPS16_classical": {
+          "arora-gb": {
+            "log2_rop": null,
+            "beta": null
+          },
+          "bkw": {
+            "log2_rop": 455.94,
+            "beta": null
+          },
+          "usvp": {
+            "log2_rop": 252.0,
+            "beta": 863
+          },
+          "bdd": {
+            "log2_rop": 253.0,
+            "beta": 863
+          },
+          "bdd_hybrid": {
+            "log2_rop": 253.0,
+            "beta": 863
+          },
+          "bdd_mitm_hybrid": {
+            "log2_rop": 515.3,
+            "beta": 863
+          },
+          "dual": {
+            "log2_rop": 257.25,
+            "beta": 881
+          },
+          "dual_hybrid": {
+            "log2_rop": 245.1,
+            "beta": 839
+          }
+        }
+      },
+      "forgery": {
+        "weak_unf_MATZOV": {
+          "lattice": {
+            "log2_rop": 288.21,
+            "beta": 911
+          }
+        },
+        "weak_unf_ADPS16_classical": {
+          "lattice": {
+            "log2_rop": 265.43,
+            "beta": 909
+          }
+        },
+        "strong_unf_MATZOV": {
+          "lattice": {
+            "log2_rop": 277.28,
+            "beta": 872
+          }
+        },
+        "strong_unf_ADPS16_classical": {
+          "lattice": {
+            "log2_rop": 253.46,
+            "beta": 868
+          }
+        }
+      }
+    }
+  }
+}

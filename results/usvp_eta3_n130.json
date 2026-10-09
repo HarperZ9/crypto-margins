@@ -1,0 +1,64 @@
+{
+  "eta": 3,
+  "n": 130,
+  "m": 128,
+  "d": 259,
+  "q": 3329,
+  "predicted_beta": 53,
+  "trials": 10,
+  "max_beta": 66,
+  "solved": 10,
+  "median_beta": 55.5,
+  "runs": [
+    {
+      "seed": 130000,
+      "beta": 56,
+      "seconds": 972.7
+    },
+    {
+      "seed": 130001,
+      "beta": 58,
+      "seconds": 1268.3
+    },
+    {
+      "seed": 130002,
+      "beta": 57,
+      "seconds": 1138.5
+    },
+    {
+      "seed": 130003,
+      "beta": 55,
+      "seconds": 812.9
+    },
+    {
+      "seed": 130004,
+      "beta": 56,
+      "seconds": 978.4
+    },
+    {
+      "seed": 130005,
+      "beta": 54,
+      "seconds": 746.8
+    },
+    {
+      "seed": 130006,
+      "beta": 56,
+      "seconds": 970.5
+    },
+    {
+      "seed": 130007,
+      "beta": 55,
+      "seconds": 814.9
+    },
+    {
+      "seed": 130008,
+      "beta": 53,
+      "seconds": 610.1
+    },
+    {
+      "seed": 130009,
+      "beta": 55,
+      "seconds": 817.9
+    }
+  ]
+}

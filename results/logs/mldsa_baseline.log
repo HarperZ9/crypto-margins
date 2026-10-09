@@ -1,0 +1,59 @@
+/mnt/c/dev/crypto-margins/src/mldsa_baseline.py:52: DeprecationWarning: Use sage.version.version instead.
+See https://github.com/sagemath/sage/issues/39015 for details.
+  "estimator_commit": commit, "sage_version": version(), "params": {}}
+bkw                  :: rop: ≈2^270.9, m: ≈2^257.0, mem: ≈2^258.0, b: 11, t1: 0, t2: 33, ℓ: 10, #cod: 938, #top: 0, #test: 86, tag: coded-bkw
+usvp                 :: rop: ≈2^150.2, red: ≈2^150.2, δ: 1.003824, β: 424, d: 2002, tag: usvp
+bdd                  :: rop: ≈2^148.0, red: ≈2^147.7, svp: ≈2^145.7, β: 415, η: 445, d: 2045, tag: bdd
+dual                 :: rop: ≈2^154.1, mem: ≈2^100.1, m: 1024, β: 434, d: 2048, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^148.5, red: ≈2^148.5, guess: ≈2^141.0, β: 414, p: 5, ζ: 10, t: 40, β': 421, N: ≈2^86.0, m: 1024
+ML-DSA-44 key recovery MATZOV done
+bkw                  :: rop: ≈2^270.9, m: ≈2^257.0, mem: ≈2^258.0, b: 11, t1: 0, t2: 33, ℓ: 10, #cod: 938, #top: 0, #test: 86, tag: coded-bkw
+usvp                 :: rop: ≈2^123.8, red: ≈2^123.8, δ: 1.003824, β: 424, d: 2002, tag: usvp
+bdd                  :: rop: ≈2^124.5, red: ≈2^123.8, svp: ≈2^123.2, β: 424, η: 421, d: 2042, tag: bdd
+dual                 :: rop: ≈2^126.7, mem: ≈2^98.8, m: 1024, β: 434, d: 2048, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^122.6, red: ≈2^122.6, guess: ≈2^112.7, β: 420, p: 5, ζ: 0, t: 40, β': 420, N: ≈2^85.8, m: 1024
+ML-DSA-44 key recovery ADPS16_classical done
+lattice  :: rop: ≈2^152.2, red: ≈2^151.3, sieve: ≈2^151.0, β: 427, η: 433, ζ: 0, d: 2304, prob: 1, ↻: 1, tag: infinity
+lattice  :: rop: ≈2^123.5, red: ≈2^123.5, sieve: ≈2^-332.2, β: 423, η: 423, ζ: 119, d: 2185, prob: 1, ↻: 1, tag: infinity
+ML-DSA-44 forgery weak_unf done
+lattice  :: rop: ≈2^150.6, red: ≈2^149.6, sieve: ≈2^149.6, β: 421, η: 428, ζ: 0, d: 2304, prob: 1, ↻: 1, tag: infinity
+lattice  :: rop: ≈2^121.8, red: ≈2^121.8, sieve: ≈2^-332.2, β: 417, η: 417, ζ: 125, d: 2179, prob: 1, ↻: 1, tag: infinity
+ML-DSA-44 forgery strong_unf done
+bkw                  :: rop: ≈2^386.0, m: ≈2^371.9, mem: ≈2^372.9, b: 16, t1: 0, t2: 31, ℓ: 15, #cod: 1184, #top: 0, #test: 98, tag: coded-bkw
+usvp                 :: rop: ≈2^206.2, red: ≈2^206.2, δ: 1.002902, β: 624, d: 2597, tag: usvp
+bdd                  :: rop: ≈2^203.8, red: ≈2^203.2, svp: ≈2^202.2, β: 613, η: 648, d: 2603, tag: bdd
+dual                 :: rop: ≈2^212.1, mem: ≈2^141.3, m: 1400, β: 641, d: 2680, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^209.6, red: ≈2^209.4, guess: ≈2^206.0, β: 632, p: 3, ζ: 20, t: 0, β': 627, N: ≈2^119.0, m: 1280
+ML-DSA-65 key recovery MATZOV done
+bkw                  :: rop: ≈2^386.0, m: ≈2^371.9, mem: ≈2^372.9, b: 16, t1: 0, t2: 31, ℓ: 15, #cod: 1184, #top: 0, #test: 98, tag: coded-bkw
+usvp                 :: rop: ≈2^182.2, red: ≈2^182.2, δ: 1.002902, β: 624, d: 2597, tag: usvp
+bdd                  :: rop: ≈2^183.0, red: ≈2^182.5, svp: ≈2^181.3, β: 625, η: 620, d: 2609, tag: bdd
+dual                 :: rop: ≈2^186.3, mem: ≈2^141.7, m: 1396, β: 638, d: 2676, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^184.9, red: ≈2^184.8, guess: ≈2^180.4, β: 633, p: 3, ζ: 10, t: 0, β': 633, N: ≈2^130.3, m: 1280
+ML-DSA-65 key recovery ADPS16_classical done
+lattice  :: rop: ≈2^211.5, red: ≈2^210.4, sieve: ≈2^210.6, β: 638, η: 634, ζ: 0, d: 3072, prob: 1, ↻: 1, tag: infinity
+lattice  :: rop: ≈2^186.3, red: ≈2^186.3, sieve: ≈2^-332.2, β: 638, η: 638, ζ: 0, d: 3072, prob: 1, ↻: 1, tag: infinity
+ML-DSA-65 forgery weak_unf done
+lattice  :: rop: ≈2^202.0, red: ≈2^201.0, sieve: ≈2^201.1, β: 604, η: 602, ζ: 0, d: 3072, prob: 1, ↻: 1, tag: infinity
+lattice  :: rop: ≈2^175.8, red: ≈2^175.8, sieve: ≈2^-332.2, β: 602, η: 602, ζ: 70, d: 3002, prob: 1, ↻: 1, tag: infinity
+ML-DSA-65 forgery strong_unf done
+bkw                  :: rop: ≈2^455.9, m: ≈2^441.1, mem: ≈2^442.1, b: 19, t1: 0, t2: 36, ℓ: 18, #cod: 1651, #top: 0, #test: 144, tag: coded-bkw
+usvp                 :: rop: ≈2^273.4, red: ≈2^273.4, δ: 1.002283, β: 863, d: 3498, tag: usvp
+bdd                  :: rop: ≈2^270.9, red: ≈2^270.4, svp: ≈2^269.1, β: 852, η: 887, d: 3496, tag: bdd
+dual                 :: rop: ≈2^281.2, mem: ≈2^190.1, m: 1784, β: 887, d: 3576, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^267.0, red: ≈2^266.9, guess: ≈2^263.1, β: 836, p: 5, ζ: 20, t: 80, β': 821, N: ≈2^169.9, m: 1792
+ML-DSA-87 key recovery MATZOV done
+bkw                  :: rop: ≈2^455.9, m: ≈2^441.1, mem: ≈2^442.1, b: 19, t1: 0, t2: 36, ℓ: 18, #cod: 1651, #top: 0, #test: 144, tag: coded-bkw
+usvp                 :: rop: ≈2^252.0, red: ≈2^252.0, δ: 1.002283, β: 863, d: 3498, tag: usvp
+bdd                  :: rop: ≈2^253.0, red: ≈2^252.0, svp: ≈2^252.0, β: 863, η: 862, d: 3490, tag: bdd
+dual                 :: rop: ≈2^257.3, mem: ≈2^192.6, m: 1775, β: 881, d: 3567, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^245.1, red: ≈2^245.0, guess: ≈2^241.3, β: 839, p: 5, ζ: 20, t: 70, β': 839, N: ≈2^172.8, m: 1792
+ML-DSA-87 key recovery ADPS16_classical done
+lattice  :: rop: ≈2^288.2, red: ≈2^287.1, sieve: ≈2^287.3, β: 911, η: 893, ζ: 0, d: 4096, prob: 1, ↻: 1, tag: infinity
+lattice  :: rop: ≈2^265.4, red: ≈2^265.4, sieve: ≈2^-332.2, β: 909, η: 909, ζ: 45, d: 4051, prob: 1, ↻: 1, tag: infinity
+ML-DSA-87 forgery weak_unf done
+lattice  :: rop: ≈2^277.3, red: ≈2^276.2, sieve: ≈2^276.3, β: 872, η: 856, ζ: 0, d: 4096, prob: 1, ↻: 1, tag: infinity
+lattice  :: rop: ≈2^253.5, red: ≈2^253.5, sieve: ≈2^-332.2, β: 868, η: 868, ζ: 118, d: 3978, prob: 1, ↻: 1, tag: infinity
+ML-DSA-87 forgery strong_unf done
+wrote /mnt/c/dev/crypto-margins/results/mldsa_baseline_20261009T231103Z.json
+rc=0

@@ -1,0 +1,73 @@
+{
+  "m": 25,
+  "nr": 40,
+  "k": 4,
+  "q": 3329,
+  "dim": 65,
+  "runs": [
+    {
+      "fresh_targets": 400,
+      "fresh_ratio_mean": 0.9790203025033706,
+      "fresh_ratio_sem": 0.013627543495523642,
+      "fresh_ratio_quantiles": {
+        "0.1": 0.6767674102354216,
+        "0.25": 0.7750170052863714,
+        "0.5": 0.9435147320965165,
+        "0.75": 1.1482877448060242,
+        "0.9": 1.3550096224971013
+      },
+      "fresh_fail_frac": 0.0,
+      "pred_fail_frac_iid": 0.0,
+      "seed": 20114260,
+      "N": 36783,
+      "saturated": false,
+      "sieve_seconds": 14.7,
+      "mean_norm": 993.1527610394273,
+      "pred_correct_mean": 6362.770090938909,
+      "pred_correct_mean_cbd": 6288.989674575792,
+      "correct_score": 4261.659257653098,
+      "correct_rank": 0,
+      "wrong_std": 136.85980277393685,
+      "pred_wrong_std": 135.61526462754847,
+      "wrong_max": 486.83023438713064,
+      "control_max": 395.46019623826214,
+      "control_std": 136.78113254548012,
+      "iid_max": {
+        "median": 413.4773249163951,
+        "p95": 507.0569235926365
+      }
+    },
+    {
+      "fresh_targets": 400,
+      "fresh_ratio_mean": 0.9790586639047251,
+      "fresh_ratio_sem": 0.014071500807467413,
+      "fresh_ratio_quantiles": {
+        "0.1": 0.6397743699900018,
+        "0.25": 0.7735744308041403,
+        "0.5": 0.9464183638868134,
+        "0.75": 1.150163424779611,
+        "0.9": 1.3784030656524249
+      },
+      "fresh_fail_frac": 0.0,
+      "pred_fail_frac_iid": 0.0,
+      "seed": 20114261,
+      "N": 36783,
+      "saturated": false,
+      "sieve_seconds": 15.2,
+      "mean_norm": 1019.977223737381,
+      "pred_correct_mean": 5781.258294676973,
+      "pred_correct_mean_cbd": 5706.736142618785,
+      "correct_score": 6257.964136270049,
+      "correct_rank": 0,
+      "wrong_std": 140.820208278864,
+      "pred_wrong_std": 135.61526462754847,
+      "wrong_max": 431.1789640020212,
+      "control_max": 422.16379675536393,
+      "control_std": 139.22407582990886,
+      "iid_max": {
+        "median": 414.35254704353724,
+        "p95": 508.83248097283916
+      }
+    }
+  ]
+}
